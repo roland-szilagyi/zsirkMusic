@@ -87,9 +87,52 @@ header .title__cont img {
   width: 25rem;
 }
 
+main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 769px) {
+  main {
+    flex-direction: row;
+  }
+}
+main .home__bio__cont {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+main .home__bio__cont p {
+  font-size: 1rem;
+}
+@media screen and (min-width: 769px) {
+  main .home__bio__cont {
+    width: 40%;
+  }
+}
+main .home__img__cont {
+  border: 2px solid whitesmoke;
+  height: 35%;
+}
+main .home__img__cont img {
+  height: 100%;
+  width: auto;
+}
+@media screen and (min-width: 769px) {
+  main .home__img__cont {
+    height: 60%;
+  }
+}
+
 nav {
+  height: 5vh;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 nav a {
   color: whitesmoke;
