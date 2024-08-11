@@ -75,13 +75,16 @@ header .img__cont {
   left: 1rem;
 }
 header .img__cont img {
-  width: 3rem;
+  width: 2.5rem;
 }
 header .title__cont {
-  width: 50vw;
+  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+header .title__cont img {
+  width: 25rem;
 }
 
 nav {

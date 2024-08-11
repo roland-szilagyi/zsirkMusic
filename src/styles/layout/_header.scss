@@ -9,14 +9,18 @@ header {
     left: 1rem;
 
     img {
-      width: 3rem;
+      width: 2.5rem;
     }
   }
 
   .title__cont {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    img {
+      width: 25rem;
+    }
   }
 }
