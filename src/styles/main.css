@@ -39,6 +39,7 @@ body {
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   background-color: rgb(17, 17, 17);
+  color: whitesmoke;
 }
 
 ol, ul {
@@ -62,4 +63,41 @@ p, h1, h2, h3, h4, h5, h6 {
 @font-face {
   src: url(../assets/fonts/rumblebrave.otf);
   font-family: "font-primary";
+}
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .img__cont {
+  position: absolute;
+  left: 1rem;
+}
+header .img__cont img {
+  width: 3rem;
+}
+header .title__cont {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: whitesmoke;
+  border-right: 1px solid whitesmoke;
+  width: 20vw;
+  text-align: center;
+  padding: 0.8rem 0;
+}
+nav a:last-of-type {
+  border-right: 0;
+}
+nav a:hover {
+  color: yellow;
 }/*# sourceMappingURL=main.css.map */

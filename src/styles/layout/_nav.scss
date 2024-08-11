@@ -1,0 +1,20 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  
+  a {
+    color: $color-secondary;
+    border-right: 1px solid $color-secondary;
+    width: 20vw;
+    text-align: center;
+    padding: 0.8rem 0;
+  }
+
+  a:last-of-type {
+    border-right: 0;
+  }
+
+  a:hover {
+    color: yellow;
+  }
+}

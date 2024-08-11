@@ -1,0 +1,22 @@
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .img__cont {
+    position: absolute;
+    left: 1rem;
+
+    img {
+      width: 3rem;
+    }
+  }
+
+  .title__cont {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
