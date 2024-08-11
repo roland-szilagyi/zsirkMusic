@@ -16,7 +16,7 @@ main {
     align-items: center;
     text-align: center;
     p {
-      font-size: 1rem; // ideiglenes
+      font-family: 'font-secondary';
     }
     @include screen(laptop) {
       width: 40%;

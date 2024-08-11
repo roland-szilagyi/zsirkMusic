@@ -61,8 +61,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  src: url(../assets/fonts/rumblebrave.otf);
+  src: url(../assets/fonts/Atomosfer.ttf);
   font-family: "font-primary";
+}
+@font-face {
+  src: url(../assets/fonts/KonexyPersonalUse.otf);
+  font-family: "font-secondary";
 }
 header {
   height: 15vh;
@@ -107,7 +111,7 @@ main .home__bio__cont {
   text-align: center;
 }
 main .home__bio__cont p {
-  font-size: 1rem;
+  font-family: "font-secondary";
 }
 @media screen and (min-width: 769px) {
   main .home__bio__cont {
@@ -140,6 +144,7 @@ nav a {
   width: 20vw;
   text-align: center;
   padding: 0.8rem 0;
+  font-family: "font-primary";
 }
 nav a:last-of-type {
   border-right: 0;
