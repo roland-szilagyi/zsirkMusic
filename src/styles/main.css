@@ -113,7 +113,7 @@ nav a:hover {
 }
 
 .about {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,7 +154,6 @@ nav a:hover {
 }
 
 .news {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -162,4 +161,5 @@ nav a:hover {
 }
 .news .iframe__cont {
   width: 90vw;
+  padding: 1rem 0;
 }/*# sourceMappingURL=main.css.map */
