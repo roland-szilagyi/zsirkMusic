@@ -1,0 +1,11 @@
+.news {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .iframe__cont {
+    width: 90vw;
+  }
+}

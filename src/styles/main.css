@@ -151,4 +151,15 @@ nav a:hover {
   .about .about__img__cont {
     height: 60%;
   }
+}
+
+.news {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.news .iframe__cont {
+  width: 90vw;
 }/*# sourceMappingURL=main.css.map */
