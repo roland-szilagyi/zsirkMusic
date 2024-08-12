@@ -91,6 +91,32 @@ header .title__cont img {
   width: 25rem;
 }
 
+footer {
+  height: 8vh;
+  border-top: 1px dotted white;
+  background-color: rgb(17, 17, 17);
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .followme__cont h3 {
+  font-family: "font-primary";
+  font-weight: 800;
+  margin: 1rem;
+}
+footer .sociallinks__cont {
+  display: flex;
+}
+footer .sociallinks__cont img {
+  width: 2rem;
+  margin: 0 0.8rem;
+}
+footer .sociallinks__cont img:hover {
+  scale: 1.2;
+}
+
 nav {
   height: 5vh;
   display: flex;
@@ -99,11 +125,12 @@ nav {
 }
 nav a {
   color: whitesmoke;
-  border-right: 1px solid whitesmoke;
-  width: 20vw;
+  border-right: 2px solid whitesmoke;
+  width: 25vw;
   text-align: center;
   padding: 0.1rem 0;
   font-family: "font-primary";
+  font-weight: 800;
 }
 nav a:last-of-type {
   border-right: 0;
